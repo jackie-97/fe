@@ -5,17 +5,25 @@
 - awesome
   - https://github.com/pingan8787/Leo-JavaScript
 
+- 大佬
+  - https://space.bilibili.com/28696526?spm_id_from=333.337.search-card.all.click
+
 - 大全
   - https://juejin.cn/column/7064397645166411812
 
 - 综合能力
-  - 工期评估
+  - 需求分析
+    - https://www.bilibili.com/video/BV1rV411R72k/?spm_id_from=333.337.search-card.all.click&vd_source=522153461914a766fc002cc8619314e4
+
+  - 技术选型：https://www.bilibili.com/video/BV1Dx4y1E7AA/?spm_id_from=333.337.search-card.all.click&vd_source=522153461914a766fc002cc8619314e4
+  - 规划能力
     - https://www.bilibili.com/video/BV1JY4y187L5/?spm_id_from=333.337.search-card.all.click&vd_source=522153461914a766fc002cc8619314e4
     - https://juejin.cn/post/7386089141367537705?searchId=202410271707153F704FA628D4EE7EA09F
-  
+  - 
 
 - 基建
   - https://www.bilibili.com/video/BV1rP411f7Wn/?spm_id_from=333.337.search-card.all.click&vd_source=522153461914a766fc002cc8619314e4
+- 需求文档：https://www.bilibili.com/video/BV1NY41147yW?spm_id_from=333.788.videopod.episodes&vd_source=522153461914a766fc002cc8619314e4&p=11
 
 
 
@@ -39,12 +47,13 @@
 
 
 
-#### 提升开发效率？
+#### 如何提升开发效率？
 
 - 识别优先级，列出核心问题，砍掉次要问题
   - 先解决主要问题，次要问题砍掉或先放着，先让整体跑起来
 - cv大法，不要每次都自己从头开始重写1次
   - 保留一些代码片段，比如表单验证，模态框
+  - 多找一些模板项目，这样直接改一下就能用了
 - 注重整体：注重某个功能整体的步骤是怎么走的！
   - 整体>>>细节
   - 你要多记流程
@@ -103,13 +112,29 @@
 
 
 
-## 需求分析
+## 如何做好需求分析？
 
-
+- 实现要了解业务，这样你才能识别伪需求，才能减少被傻逼带坑里的次数
+- 明确客户想要达成的预期效果
+  - 也要识别风险
+- 加强团队沟通，特别是产品经理，明确需求优先级
+  - 同时做好记录，防止耍赖
+- 学会编写需求文档：PDR
+  - 为啥要有文档？因为如果你啥文档都不写，那就是任由老板乱来咯，乱定时间咯
+- 学会编写用户故事
+- 收集反馈
+  - 根据反馈调整需求
+- 主动识别
 
 
 
 ## 常用代码片段
+
+
+
+## 技术选型
+
+：这个其实小问题
 
 
 
