@@ -71,3 +71,15 @@ uniapp web项目不支持运行到小程序
 uniapp居然支持下载完马上就打开文件
 
 - 通过下载成功的回调，拿到地址res.tempFilePath，调用openDocument就可以打开咯
+
+uniapp如何设置环境，如何配置多环境变量？
+
+- 支持
+
+uniapp如何安装插件？
+
+- 
+
+它的项目启动为啥看不到命令行的？
+
+- 
