@@ -15,13 +15,28 @@
   - [有时候webRoot不正确](https://blog.csdn.net/qq_45763682/article/details/130983785)，你要手动改成你的项目地址
     - ​    "webRoot": "F:/fe-projects/toucu-admin/src"
 
-  
+- [git](https://juejin.cn/post/6974184935804534815?searchId=2024110511073927127CDF90D4B07DFB4B)
+
+
+
+
+## git
+
+
+
+
 
 ## elementPlus
 
 表单校验不生效，一直判定为valid一直为true
 
 - 
+
+el-col可以不在el-row里面套用就可以使用
+
+- 
+
+
 
 
 
@@ -109,3 +124,20 @@ assign
 
 - 直接写debugger，或者是在浏览器里加断点
 - 
+
+
+
+## web-storage-cache
+
+：对storage的进行了扩展，同时支持过期的功能，可用可不用
+
+
+
+## xml-js
+
+：用于把xml转换成object
+
+
+
+
+

@@ -12,6 +12,9 @@
     - https://blog.csdn.net/qq_25430563/article/details/109818716
     - key配置：https://blog.csdn.net/SOLar7SysteM/article/details/123856915
     - demo:https://www.zeeklog.com/uni-app-wei-xin-xiao-cheng-xu-zhong-guan-yu-map-di-tu-shi-yong-an-li-fen-xiang/
+- 表单生成器
+  - [Variant Form 3](http://120.92.142.115:81/vform3/)
+
 
 
 
@@ -19,6 +22,7 @@
 
 vue
 
+- [pureadmin](https://pure-admin.github.io/vue-pure-admin/#/components/dialog)
 - [视频教程 | ruoyi-vue-pro 开发指南](https://doc.iocoder.cn/video/#大纲)
   - 基于elementPlus
 - [naive-ui-admin](https://github.com/jekip/naive-ui-admin)
@@ -27,6 +31,8 @@ vue
 uniapp
 
 - 
+
+
 
 ## 设计问题
 
@@ -167,6 +173,15 @@ uniapp
 - 有效的存储字典
 - 方便取出
 
+实现，设置封装成DictStore
+
+- 获取整个：getDict
+- 设置：setDict
+- 重置：resetDict
+- 获取字典某个属性：getDictByName
+
+
+
 
 
 ## 组件封装
@@ -182,6 +197,11 @@ uniapp
 
 
 ## dialog二次封装
+
+交互流程
+
+- 弹窗关闭后，自动查询列表
+  - 通过@close事件
 
 
 
@@ -205,6 +225,37 @@ uniapp
 
 
 ## 
+
+
+
+## 脚手架工具
+
+：新建页面，
+
+
+
+## 模板工具
+
+
+
+## 表单生成器
+
+需求
+
+- 能够做渲染一些组件：容器、表单组件
+- 能生成sfc代码，vue3版本
+  - 不需要生成json
+- 能预览要生成的代码
+  - 不要等生成之后才能看
+- 组件设置
+- 表单配置
+  - 可以配置一些label宽度
+
+- 不用考虑样式重定义的问题
+
+
+
+## 流程设计器
 
 
 
