@@ -4,7 +4,10 @@
 
 - 常见功能
   - https://juejin.cn/post/7088144745788080142?searchId=202410271635456BBE16F0D81AB48A17CF
-- 优秀项目：https://doc.iocoder.cn/video/
+- 优秀项目
+  - https://doc.iocoder.cn/video/
+  - 
+
 - 地图接入
   - uniapp
     - 使用腾讯地图获取定位：https://juejin.cn/post/7202149834363142201#heading-7
@@ -23,6 +26,8 @@
 vue
 
 - [pureadmin](https://pure-admin.github.io/vue-pure-admin/#/components/dialog)
+  - 文档：[介绍 | Pure Admin 保姆级文档（已兼容最新版v5.8.0）](https://pure-admin.github.io/pure-admin-doc/pages/introduction/)
+
 - [视频教程 | ruoyi-vue-pro 开发指南](https://doc.iocoder.cn/video/#大纲)
   - 基于elementPlus
 - [naive-ui-admin](https://github.com/jekip/naive-ui-admin)
@@ -182,7 +187,7 @@ uniapp
 
 
 
-
+配置
 
 ## 组件封装
 
@@ -192,7 +197,24 @@ uniapp
 
 
 
-## 
+## menu封装
+
+需要显示不在菜单页面
+
+- 直接写死
+- 或这是手动添加一下，然后根据名字来跳转
+
+
+
+## axios请求封装
+
+需求
+
+- 请求拦截
+
+- 响应拦截
+
+
 
 
 
@@ -206,6 +228,35 @@ uniapp
 
 
 ## messagebox二次封装
+
+
+
+
+
+## 文件上传
+
+
+
+## 文件回显
+
+需求
+
+- 预览
+- 直接下载
+
+
+
+怎样控制是预览还是下载？
+
+- 通过响应头，content-disposition，为inline就是预览，为attachment则是会下载
+
+
+
+## 图片上传
+
+需求
+
+- 需要回显
 
 
 
@@ -223,8 +274,6 @@ uniapp
 - 表格低代码
 
 
-
-## 
 
 
 

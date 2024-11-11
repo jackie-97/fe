@@ -17,12 +17,30 @@
 
 - [git](https://juejin.cn/post/6974184935804534815?searchId=2024110511073927127CDF90D4B07DFB4B)
 
+- [Element Plus版本低代码设计器FcDesigner Pro在线演示 | FormCreate](https://pro.form-create.com/view/)
+
 
 
 
 ## git
 
+vscode可以方便的看对比
 
+- 不要用git的原生工具
+
+git 修改到一般，发现自己改错了分支，但是不想丢失这些修改
+
+- 可以先把修改从暂存区回退到工作区
+
+尽量减少切换分支的操作
+
+- 
+
+merge
+
+- a分支合入另一个分支b的最新修改，git merge origin/b
+  - 它会自动拉取操作的
+- 
 
 
 
@@ -37,6 +55,12 @@ el-col可以不在el-row里面套用就可以使用
 - 
 
 
+
+form中多个item需要按规则排列
+
+- 一般是一排4个
+- 在el-form下直接套用el-row，el-col即可
+- 此时不要设置inline属性，而且要
 
 
 
@@ -61,6 +85,25 @@ el-col可以不在el-row里面套用就可以使用
 
 
 ## vite
+
+前端打包在做什么事情？
+
+- 依赖解析
+- 树摇
+- 文件合并
+- 代码切割，切割成多个chunk（块），实现按需加载
+- 代码转换，es6+转成es5
+- 代码压缩：主要是去除空格，空行，注释
+- 源码映射，方便在调试时
+- 环境变量的替换
+
+打包与构建的关系
+
+- 构建包括打包
+
+打包文件bundle、代码块chunk
+
+- 
 
 
 
