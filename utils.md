@@ -59,8 +59,16 @@ el-col可以不在el-row里面套用就可以使用
 form中多个item需要按规则排列
 
 - 一般是一排4个
-- 在el-form下直接套用el-row，el-col即可
-- 此时不要设置inline属性，而且要
+- 方式1
+  - 在el-form下直接套用el-row，el-col即可
+  - 此时不要设置inline属性，而且要
+
+- 方式2
+  - 直接设置表单组件的width，比如el-select的class="!w-240px"
+
+- 
+
+
 
 
 
